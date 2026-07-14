@@ -73,7 +73,7 @@ export function MountainExperiences() {
 
         <div className="text-center mt-12">
           <Link href="/explore">
-            <Button variant="outline" className="border-white/30 text-white hover:bg-white/10 rounded-none tracking-widest px-8">
+            <Button className="bg-primary hover:bg-primary/90 text-white rounded-none tracking-widest px-8">
               EXPLORE ALL ACTIVITIES
             </Button>
           </Link>
