@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function StickyBookButton() {
@@ -25,9 +26,11 @@ export function StickyBookButton() {
           transition={{ duration: 0.3 }}
           className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-white border-t border-border shadow-lg p-3"
         >
-          <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-none tracking-widest h-12 font-semibold">
-            BOOK NOW
-          </Button>
+          <Link href="/book">
+            <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-none tracking-widest h-12 font-semibold">
+              BOOK NOW
+            </Button>
+          </Link>
         </motion.div>
       )}
     </AnimatePresence>
