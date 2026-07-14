@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     template: "%s | Magalies Mountain Lodge",
   },
   description:
-    "Experience tranquility and elegance at Magalies Mountain Lodge & Body Spa. A luxury mountain retreat in the Magaliesberg, South Africa. Strictly adults only.",
+    "Experience tranquility and elegance at Magalies Mountain Lodge & Spa. A luxury mountain retreat in the Magaliesberg, South Africa. Strictly adults only.",
   keywords: [
     "Magalies Lodge",
     "Mountain Retreat",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     siteName: "Magalies Mountain Lodge",
     title: "Magalies Mountain Lodge | Premium Mountain Retreat & Spa",
     description:
-      "Experience tranquility and elegance at Magalies Mountain Lodge & Body Spa. A luxury mountain retreat.",
+      "Experience tranquility and elegance at Magalies Mountain Lodge & Spa. A luxury mountain retreat.",
     images: [
       {
         url: "/images/images/magalies-mountain-lodge.jpg",
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Magalies Mountain Lodge | Premium Mountain Retreat & Spa",
     description:
-      "Experience tranquility and elegance at Magalies Mountain Lodge & Body Spa.",
+      "Experience tranquility and elegance at Magalies Mountain Lodge & Spa.",
     images: ["/images/images/magalies-mountain-lodge.jpg"],
   },
   icons: {

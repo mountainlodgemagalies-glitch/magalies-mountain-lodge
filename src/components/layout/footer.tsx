@@ -136,7 +136,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} Magalies Mountain Lodge & Body Spa. All rights reserved.
+            &copy; {new Date().getFullYear()} Magalies Mountain Lodge & Spa. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-white/40">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

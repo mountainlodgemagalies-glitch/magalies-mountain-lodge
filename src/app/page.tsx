@@ -93,7 +93,7 @@ function HeroSection() {
           >
             <span className="inline-flex items-center gap-2 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.5em] text-white/60">
               <span className="w-8 sm:w-10 h-px bg-white/40" />
-              Mountain Lodge & Body Spa
+              Magalies Mountain Lodge & Spa
             </span>
           </motion.div>
 

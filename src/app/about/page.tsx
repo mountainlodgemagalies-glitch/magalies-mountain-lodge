@@ -7,7 +7,7 @@ import { Shield, Heart, Leaf, Award, Users, TreePine } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Discover the story behind Magalies Mountain Lodge & Body Spa. A premium 3-star mountain retreat in the heart of the Magaliesberg, South Africa.",
+  description: "Discover the story behind Magalies Mountain Lodge & Spa. A premium 3-star mountain retreat in the heart of the Magaliesberg, South Africa.",
 };
 
 const VALUES = [
@@ -57,7 +57,7 @@ export default function AboutPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.5em] text-primary block mb-3">Since Day One</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">A Mountain Sanctuary</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Magalies Mountain Lodge & Body Spa was born from a deep love for the Magaliesberg Mountains and a vision to create a sanctuary where adults can escape the noise of everyday life and reconnect with nature, each other, and themselves.
+                Magalies Mountain Lodge & Spa was born from a deep love for the Magaliesberg Mountains and a vision to create a sanctuary where adults can escape the noise of everyday life and reconnect with nature, each other, and themselves.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Situated in the tranquil Moot Valley, just a short drive from Pretoria, our lodge offers the perfect blend of rustic mountain charm and modern luxury. Every detail has been thoughtfully curated to ensure an experience of pure relaxation.
