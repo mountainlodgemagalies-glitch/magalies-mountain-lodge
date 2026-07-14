@@ -82,16 +82,16 @@ function HeroSection() {
       </div>
 
       {/* Content - Left Side */}
-      <div className="relative z-20 flex h-full flex-col justify-between pt-20 pb-6 px-5 sm:px-6 md:justify-center md:pt-0 md:pb-0 md:px-16 lg:px-24">
+      <div className="relative z-20 flex h-full flex-col justify-between pt-28 pb-8 px-5 sm:px-6 md:justify-center md:pt-0 md:pb-0 md:px-16 lg:px-24">
         <div className="max-w-2xl">
           {/* Accent Label */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mb-2 sm:mb-3"
+            className="mb-3 sm:mb-4"
           >
-            <span className="inline-flex items-center gap-2 text-[9px] sm:text-[10px] font-semibold uppercase tracking-[0.5em] text-white/60">
+            <span className="inline-flex items-center gap-2 text-[10px] sm:text-xs font-semibold uppercase tracking-[0.5em] text-white/60">
               <span className="w-8 sm:w-10 h-px bg-white/40" />
               Mountain Lodge & Body Spa
             </span>
@@ -102,7 +102,7 @@ function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="text-[2rem] font-light leading-[0.95] text-white sm:text-4xl md:text-6xl lg:text-7xl"
+            className="text-[2.5rem] font-light leading-[0.95] text-white sm:text-5xl md:text-6xl lg:text-[5.5rem]"
           >
             Rest.
             <br />
@@ -116,7 +116,7 @@ function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-            className="mt-3 max-w-md text-[11px] sm:text-xs font-light leading-relaxed text-white/60 md:text-base md:mt-5"
+            className="mt-4 max-w-md text-xs sm:text-sm font-light leading-relaxed text-white/60 md:text-base md:mt-6"
           >
             A quiet adults-only mountain retreat with poolside calm, spa rituals,
             and warm lodge hospitality.
@@ -127,12 +127,12 @@ function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.9 }}
-            className="mt-4 flex flex-col items-start gap-2.5 sm:flex-row sm:gap-3 md:mt-7"
+            className="mt-5 flex flex-col items-start gap-3 sm:flex-row sm:gap-4 md:mt-8"
           >
             <Link href="/book">
               <Button
                 size="lg"
-                className="h-10 rounded-full bg-primary px-6 text-[10px] sm:h-11 sm:px-7 sm:text-[11px] md:h-12 md:px-8 md:text-xs font-semibold uppercase tracking-[0.25em] text-white hover:bg-primary/90 transition-colors"
+                className="h-11 rounded-full bg-primary px-7 text-[11px] sm:h-12 sm:px-8 sm:text-xs md:h-14 md:px-10 md:text-sm font-semibold uppercase tracking-[0.25em] text-white hover:bg-primary/90 transition-colors"
               >
                 Book Your Stay
               </Button>
@@ -141,7 +141,7 @@ function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="h-10 rounded-full border-white/40 bg-white/5 px-6 text-[10px] sm:h-11 sm:px-7 sm:text-[11px] md:h-12 md:px-8 md:text-xs font-medium uppercase tracking-[0.25em] text-white hover:bg-white/10 hover:text-white backdrop-blur-sm transition-all"
+                className="h-11 rounded-full border-white/40 bg-white/5 px-7 text-[11px] sm:h-12 sm:px-8 sm:text-xs md:h-14 md:px-10 md:text-sm font-medium uppercase tracking-[0.25em] text-white hover:bg-white/10 hover:text-white backdrop-blur-sm transition-all"
               >
                 Explore
               </Button>
@@ -149,12 +149,12 @@ function HeroSection() {
           </motion.div>
         </div>
 
-        {/* Mobile Booking Widget - pinned at bottom */}
+        {/* Mobile Booking Widget - vertical, pinned at bottom */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.1 }}
-          className="lg:hidden"
+          className="lg:hidden mt-6"
         >
           <BookingWidget variant="hero-mobile" />
         </motion.div>

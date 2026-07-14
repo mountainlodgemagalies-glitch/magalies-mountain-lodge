@@ -101,7 +101,7 @@ export default function RootLayout({
       className={`${saolDisplay.variable} ${grotaSansAlt.variable} ${grotaSans.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col font-sans" suppressHydrationWarning>
+      <body className="min-h-full flex flex-col font-sans overflow-x-hidden" suppressHydrationWarning>
         <JsonLd />
         <Navbar />
         <main className="flex-1 flex flex-col">{children}</main>
