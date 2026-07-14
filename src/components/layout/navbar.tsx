@@ -83,7 +83,7 @@ export function Navbar() {
             alt="Magalies Mountain Lodge"
             width={160}
             height={40}
-            className="h-10 md:h-12 w-auto"
+            className="h-11 md:h-12 w-auto"
             priority
           />
         </Link>
@@ -167,21 +167,21 @@ export function Navbar() {
                 <Button
                   variant="ghost"
                   size="icon"
-                  className={cn("lg:hidden", isHomeHero ? "text-white" : "text-black")}
+                  className={cn("lg:hidden w-11 h-11", isHomeHero ? "text-white" : "text-black")}
                 />
               }
             >
-              <Menu className="h-6 w-6" />
+              <Menu className="h-7 w-7" />
               <span className="sr-only">Toggle menu</span>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[350px] bg-background p-0">
+            <SheetContent side="right" className="w-[300px] sm:w-[350px] bg-background p-0 transition-[transform,opacity] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] data-ending-style:opacity-0 data-starting-style:opacity-0 data-[side=right]:data-ending-style:translate-x-full data-[side=right]:data-starting-style:translate-x-full">
               <div className="p-6 border-b border-border">
                 <Image
                   src="/images/magalies-logo.svg"
                   alt="Magalies Mountain Lodge"
                   width={140}
                   height={35}
-                  className="h-10 w-auto"
+                  className="h-12 w-auto"
                 />
               </div>
               <nav className="flex flex-col p-6">
