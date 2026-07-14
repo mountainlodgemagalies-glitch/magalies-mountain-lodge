@@ -1,23 +1,44 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function StickyBookButton() {
   const [visible, setVisible] = useState(false);
+  const [nearFooter, setNearFooter] = useState(false);
+  const pathname = usePathname();
+  const footerRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
       setVisible(window.scrollY > 600);
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const footer = document.querySelector("footer");
+    if (!footer) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setNearFooter(entry.isIntersecting);
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(footer);
+    return () => observer.disconnect();
+  }, [pathname]);
+
+  const show = visible && !nearFooter && pathname !== "/book";
+
   return (
     <AnimatePresence>
-      {visible && (
+      {show && (
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
