@@ -147,7 +147,7 @@ export function Navbar() {
             <Phone className="w-5 h-5" />
           </a>
           <Link href="/book">
-            <Button className="bg-primary hover:bg-primary/90 text-white rounded-full tracking-widest font-semibold px-8">
+            <Button className="bg-primary hover:bg-primary/90 text-white tracking-widest font-semibold px-8">
               BOOK NOW
             </Button>
           </Link>
@@ -214,7 +214,7 @@ export function Navbar() {
                   )
                 )}
                 <Link href="/book" onClick={() => setIsOpen(false)}>
-                  <Button className="mt-6 w-full bg-primary text-white rounded-full tracking-widest h-12">
+                  <Button className="mt-6 w-full bg-primary text-white tracking-widest h-12">
                     BOOK NOW
                   </Button>
                 </Link>

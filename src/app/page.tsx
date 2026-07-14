@@ -132,7 +132,7 @@ function HeroSection() {
             <Link href="/book">
               <Button
                 size="lg"
-                className="h-11 rounded-full bg-primary px-7 text-[11px] sm:h-12 sm:px-8 sm:text-xs md:h-14 md:px-10 md:text-sm font-semibold uppercase tracking-[0.25em] text-white hover:bg-primary/90 transition-colors"
+                className="h-11 bg-primary px-7 text-[11px] sm:h-12 sm:px-8 sm:text-xs md:h-14 md:px-10 md:text-sm font-semibold uppercase tracking-[0.25em] text-white hover:bg-primary/90 transition-colors"
               >
                 Book Your Stay
               </Button>
@@ -141,7 +141,7 @@ function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="h-11 rounded-full border-white/40 bg-white/5 px-7 text-[11px] sm:h-12 sm:px-8 sm:text-xs md:h-14 md:px-10 md:text-sm font-medium uppercase tracking-[0.25em] text-white hover:bg-white/10 hover:text-white backdrop-blur-sm transition-all"
+                className="h-11 border-white/40 bg-white/5 px-7 text-[11px] sm:h-12 sm:px-8 sm:text-xs md:h-14 md:px-10 md:text-sm font-medium uppercase tracking-[0.25em] text-white hover:bg-white/10 hover:text-white backdrop-blur-sm transition-all"
               >
                 Explore
               </Button>

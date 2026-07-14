@@ -55,7 +55,7 @@ export function BookingWidget({ variant = "default" }: { variant?: "default" | "
               <ChevronDown className="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground/60 pointer-events-none" />
             </div>
           </div>
-          <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-full tracking-widest font-semibold text-xs h-11 mt-2">
+          <Button className="w-full bg-primary hover:bg-primary/90 text-white tracking-widest font-semibold text-xs h-11 mt-2">
             CHECK AVAILABILITY
           </Button>
         </div>
@@ -106,7 +106,7 @@ export function BookingWidget({ variant = "default" }: { variant?: "default" | "
               <ChevronDown className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground/50 pointer-events-none" />
             </div>
           </div>
-          <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-full text-[10px] font-semibold px-3 h-9 mt-1">
+          <Button className="w-full bg-primary hover:bg-primary/90 text-white text-[10px] font-semibold px-3 h-9 mt-1">
             CHECK AVAILABILITY
           </Button>
         </div>
